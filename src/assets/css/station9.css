@@ -1,6 +1,7 @@
 #animation {
-  animation: fade-in 3s;
+  animation: 3s fade-in;
   animation-fill-mode: forwards;
+  animation-name: fade-in;
 }
 
 @keyframes fade-in {
