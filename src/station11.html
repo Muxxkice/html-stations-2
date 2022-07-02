@@ -12,7 +12,7 @@
         <p>メール</p>
         <input type="email" id="email" required />
         <p>パスワード</p>
-        <input type="password" min="6" required />
+        <input type="password" minlength="6" pattern=".{6,}" required />
         <p>ニックネーム</p>
         <input id="nickname" max="20" />
         <button type="submit">送信</button>
