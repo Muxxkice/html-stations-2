@@ -5,5 +5,4 @@ function changeBackgroundColor() {
   } else {
     document.getElementById("text").style.backgroundColor = "";
   }
-
 }
